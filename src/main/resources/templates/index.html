@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+      <h2>hello Spring boot!!</h2>
+<!--      링크를 클릭하는것은 get메서드를 사용한 요청이다 라고 보면된다.-->
+        <a href="/member/save">회원가입</a>
+<!--        <a href="/member/save"> 는 주소창에 /member/save 를 전달하고
+            전달받은 주소창은 MemberController 의 @GetMapping("/member/save")이
+            받아 서 save.html 을 반환함    -->
+        <a href="/member/login">로그인</a>
+        <a href="/member/">회원목록</a>
+</body>
+</html>
